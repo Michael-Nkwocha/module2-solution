@@ -1,0 +1,82 @@
+/* General Style*/
+
+
+
+* {
+box-sizing: border-box;
+  
+}
+
+body {
+font-family: Verdana;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+text-align: center;
+margin: 20px 0px;
+font-size: 2.5em;  
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px;
+}
+
+.section {
+ position: relative;
+  width: 125%;
+  padding: 35px;
+  border: 3px solid black;
+  margin: 15px;
+}
+
+.section-title {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: #556fff;
+padding: 10px;
+border: 3px solid black;
+font-weight: bold;
+}
+
+/* Background Colors for sections*/
+
+.section:nth-child(1) {
+background-color: #556fff; 
+}
+
+.section:nth-child(2) {
+background-color: #102A3D;
+}
+
+.section:nth-child(3) {
+background-color: #003cb3;
+}
+
+/* Media for different device*/
+
+/* Desktop */
+@media (min-width: 992px) {
+.section {
+width: 45%;
+}
+}
+
+/* Tablet */
+@media (min-width: 768px) (max-width: 991px) {
+.section {
+width: 60%;
+}
+ }
+
+/* Mobile */
+@media (min-width: 767px) {
+.section {
+  width: 100%;
+}
+ }
