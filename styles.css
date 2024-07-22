@@ -44,6 +44,18 @@ border: 3px solid black;
 font-weight: bold;
 }
 
+#chicken.title {
+background-color: #f7f7f7;
+}
+
+#beef.title {
+background-color: #74992e;
+} 
+
+#sushi.title {
+background-color: #92a8d1;
+}  
+
 /* Background Colors for sections*/
 
 .section:nth-child(1) {
